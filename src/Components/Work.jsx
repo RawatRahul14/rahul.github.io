@@ -13,7 +13,7 @@ const works = [
       imgSrc: '/images/project-1.jpg',
       title: 'FinTech Chat Bot',
       tags: ['Python', 'LLM', 'AI', 'API'],
-      projectLink: 'https://github.com/LCM-W25-3035/FinChatbot'
+      projectLink: 'https://agentic-rag-14.streamlit.app/'
     },
     {
       imgSrc: '/images/project-2.jpg',
