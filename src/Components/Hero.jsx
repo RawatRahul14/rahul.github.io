@@ -32,7 +32,9 @@ const Hero = () => {
                 <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">Transforming data into actionable insights to Drive innovation and growth</h2>
 
                 <div className="flex items-center gap-3">
-                    <ButtonPrimary label="Download CV" icon="download" />
+                    <a href="/files/Rahul_CV.pdf" download>
+                        <ButtonPrimary label="Download CV" icon="download" />
+                    </a>
 
                     <ButtonOutline href="#about" label="Scroll down" icon="arrow_downward" />
                 </div>
