@@ -59,7 +59,7 @@ const Work = () => {
               <a href="https://fintech-chatbot-14.streamlit.app/" target="_blank" className="text-sky-400 hover:underline">
                 🌐 Live Demo
               </a>
-              <a href="#" target="_blank" className="text-sky-400 hover:underline">
+              <a href="https://github.com/RawatRahul14/FinTech-Bot" target="_blank" className="text-sky-400 hover:underline">
                 📂 GitHub Repo
               </a>
             </div>
