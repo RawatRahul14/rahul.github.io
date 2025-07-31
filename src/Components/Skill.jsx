@@ -51,7 +51,7 @@ const skillItem = [
   },
   {
     imgSrc: "/images/langgraph.svg",
-    label: "Lang Graph",
+    label: "LangGraph",
     desc: "Agentic AI"
   },
   {
