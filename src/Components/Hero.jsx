@@ -29,7 +29,8 @@ const Hero = () => {
                         </div>
                     </div>
 
-                    <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">Transforming data into actionable insights to Drive innovation and growth</h2>
+                    <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">Bridging Quantitative Finance and High-Performance Engineering.</h2>
+                    <p>Engineering low-latency data pipelines and modular backend architectures for financial markets.</p>
 
                     <div className="flex items-center gap-3">
                         <a href="/files/Rahul_Rawat_Data_Science_AI.pdf" download>
