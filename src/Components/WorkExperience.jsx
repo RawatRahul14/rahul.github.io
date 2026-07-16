@@ -5,31 +5,33 @@
 
 const experienceItems = [
     {
+        role: "Core Architect & Lead Developer",
+        company: "Probabilistic Trading System",
+        period: "Oct 2025 - Present",
+        location: "Remote",
+        description: [
+            "Architected a production-oriented, hybrid Python/C++ market regime detection system optimized for Indian equity markets, executing parallelized agentic workflows via LangGraph to minimize execution latency.",
+            "Engineered a stateful computational kernel in C++20 with pybind11 bindings, implementing O(1) complexity incremental technical indicators (SMA, EMA, ADX) and a proprietary NewsPressure algorithm to eliminate historical window warm-up overhead.",
+            "Designed an asynchronous multi-agent orchestration layer that cuts aggregate pipeline processing latency by 76% (from 46s to 11s), concurrently running a structured LLM news sentiment pipeline.",
+            "Built a high-performance storage and analytics layer leveraging DuckDB's OLAP engine for vectorized time-series queries across 82+ tickers, persisting system state via automated metadata checkpointing."
+        ],
+        tags: ["C++20", "Python", "LangGraph", "DuckDB", "pybind11", "Quantitative Finance", "Asynchronous Programming"],
+        link: "https://github.com/RawatRahul14/Probabilistic-Trading-System"
+    },
+    {
         role: "Technical Leader",
         company: "Lambton College",
-        period: "Jan 2024 - Apr 2025",
+        period: "Jan 2025 - Apr 2025",
         location: "Mississauga, Canada",
         description: [
-        "Designed a FinTech AI system to extract insights from PDF financial reports, building a LangChain + FAISS based RAG pipeline powered by LLMs for real-time document summarization and intelligent query answering.",
+        "Engineered a high-throughput RAG pipeline using LangChain and FAISS, leveraging LLMs to execute real-time text extraction, document summarization, and deterministic query answering across complex financial reports.",
         "Fine-tuned a BERT classifier for span vs. arithmetic query detection, achieving 96.59% accuracy, and deployed it via AWS SageMaker to reduce inference time from 2 minutes to 2 seconds.",
         "Integrated Unstructured.io to accurately extract and structure financial tables and paragraphs from complex PDFs, enabling downstream retrieval and reasoning tasks."
         ],
         tags: ["Transformers", "Large Language Models", "FinTech", "AWS SageMaker", "AI Agents", "Chatbot"],
         link: "https://github.com/LCM-W25-3035/FinChatbot/tree/master"
-    },
-    {
-        role: "Founder & Lead Developer",
-        company: "PiuFi - AI Trading Assistant",
-        period: "May 2025 - Present",
-        location: "Remote",
-        description: [
-        " Developed a LangGraph-powered multi-agent system integrating LLMs, RAG architecture, and intent classification to route queries to forecasting, financial Q&A, or document retrieval agents.",
-        "Implemented smart document retrieval using LangChain, FAISS vector stores, and embedding-based chunking to extract financial insights from uploaded PDFs.",
-        " Built a deep learning-based stock price forecasting model using historical market data and technical analysis, achieving R2 > 0.85 on volatile tickers like TSLA."
-        ],
-        tags: ["Multi-Agent", "FinTech", "PyTorch", "FastAPI", "Agentic AI", "OpenAI"],
-        link: "https://github.com/RawatRahul14/FinTech-Bot"
     }
+    
 ];
 
 const Experience = () => {

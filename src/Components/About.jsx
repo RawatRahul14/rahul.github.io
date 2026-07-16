@@ -33,7 +33,7 @@ const About = () => {
                 <p className="text-zinc-300 text-lg md:text-xl text-center">
                 I bridge the gap between mathematical rigor and low-latency execution. 
                 My focus is on engineering ultra-fast data pipelines, parallel agent architectures, 
-                and computational backends using C++ and Python—building deterministic solutions 
+                and computational backends using C++ and Python building deterministic solutions 
                 where performance and microsecond efficiency matter.
                 </p>
             </div>
