@@ -27,15 +27,14 @@ const About = () => {
             {/* Content */}
             <div className="space-y-6 mb-8 md:space-y-8 md:mb-12">
                 <p className="text-zinc-300 text-lg md:text-xl text-center">
-                Hello, I'm Rahul Rawat, a Data Scientist passionate about solving real-world
-                problems with AI and data-driven insights.
+                Hello, I'm Rahul Rawat, a software engineer specializing in high-performance systems, 
+                quantitative development, and distributed AI engineering.
                 </p>
                 <p className="text-zinc-300 text-lg md:text-xl text-center">
-                With expertise in machine learning, big data, and deep learning, I specialize
-                in building innovative solutions to optimize business processes, enhance
-                decision-making, and uncover actionable insights. Whether it's creating
-                predictive models, developing interactive dashboards, or implementing
-                AI-powered systems, my goal is to deliver impactful results.
+                I bridge the gap between mathematical rigor and low-latency execution. 
+                My focus is on engineering ultra-fast data pipelines, parallel agent architectures, 
+                and computational backends using C++ and Python—building deterministic solutions 
+                where performance and microsecond efficiency matter.
                 </p>
             </div>
 
