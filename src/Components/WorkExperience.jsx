@@ -6,17 +6,26 @@
 const experienceItems = [
     {
         role: "Core Architect & Lead Developer",
-        company: "Probabilistic Trading System",
-        period: "Oct 2025 - Present",
+        company: "Probabilistic Index Regime Engine",
+        period: "Aug 2026 - Present",
         location: "Remote",
         description: [
-            "Architected a production-oriented, hybrid Python/C++ market regime detection system optimized for Indian equity markets, executing parallelized agentic workflows via LangGraph to minimize execution latency.",
-            "Engineered a stateful computational kernel in C++20 with pybind11 bindings, implementing O(1) complexity incremental technical indicators (SMA, EMA, ADX) and a proprietary NewsPressure algorithm to eliminate historical window warm-up overhead.",
-            "Designed an asynchronous multi-agent orchestration layer that cuts aggregate pipeline processing latency by 76% (from 46s to 11s), concurrently running a structured LLM news sentiment pipeline.",
-            "Built a high-performance storage and analytics layer leveraging DuckDB's OLAP engine for vectorized time-series queries across 82+ tickers, persisting system state via automated metadata checkpointing."
+            "Architected a modular probabilistic market regime detection engine for the NIFTY 50 index, orchestrating parallelized numerical market data pipelines and asynchronous financial news workflows via asyncio.",
+            "Engineered an embedded analytical data layer in DuckDB, implementing incremental multi-period log returns and rolling annualized volatility models (3, 5, 7, 10, and 21-day windows) directly via optimized SQL window functions.",
+            "Built an in-memory semantic deduplication pipeline using sentence-transformers (all-MiniLM-L6-v2) and vectorized cosine similarity matrix operations, filtering redundant financial news before downstream inference.",
+            "Designed a concurrent LLM sentiment classification agent using structured Pydantic schemas to extract calibrated directional probability distributions (P_bull, P_neutral, P_bear), confidence, and market scope from multi-source news streams."
         ],
-        tags: ["C++20", "Python", "LangGraph", "DuckDB", "pybind11", "Quantitative Finance", "Asynchronous Programming"],
-        link: "https://github.com/RawatRahul14/Probabilistic-Trading-System"
+        tags: [
+            "Python",
+            "DuckDB",
+            "Asyncio",
+            "Sentence-Transformers",
+            "LangGraph",
+            "Pydantic",
+            "Time-Series Analysis",
+            "Quantitative Finance"
+        ],
+        link: "https://github.com/RawatRahul14/Probabilistic-Index-Regime-Engine"
     },
     {
         role: "Technical Leader",
